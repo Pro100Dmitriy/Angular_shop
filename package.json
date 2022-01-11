@@ -1,0 +1,35 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "fullstack app with angular",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "server": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pro100Dmitriy/Angular_shop.git"
+  },
+  "keywords": [
+    "express",
+    "angular"
+  ],
+  "author": "Dmitry Shestak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pro100Dmitriy/Angular_shop/issues"
+  },
+  "homepage": "https://github.com/Pro100Dmitriy/Angular_shop#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mongodb": "^4.3.0",
+    "mongoose": "^6.1.6",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
